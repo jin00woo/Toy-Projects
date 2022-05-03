@@ -1,2 +1,2 @@
 # Toy-Projects
-Some small projects I've been engaged in.
+These are some small projects I've been engaged in.
