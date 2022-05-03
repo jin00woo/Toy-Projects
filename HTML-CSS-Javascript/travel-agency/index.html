@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" media="screen and (max-width:768px)" href="./css/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width:1100px)" href="./css/widescreen.css">
+  <title>Jin Woo Travel | Your Ultimate Seoul Tour Agency</title>
+  <link href="./img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/a4bbf46702.js" crossorigin="anonymous"></script>
+</head>
+<body id="home">
+<!--   Navbar -->
+  <nav id="navbar">
+    <h1 class="logo">
+      <span class="text-primary">
+        <i class="fas fa-plane-arrival"></i> Jin Woo 
+      </span>Travel
+    </h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#what">What</a></li>
+      <li><a href="#who">Who</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+<!--   Header: Showcase -->
+  <header id="showcase">
+    <div class="showcase-content">
+      <h1 class="l-heading">
+        The Sky Is The Limit
+      </h1>
+      <p class="lead">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem amet perferendis, sapiente commodi dignissimos totam?
+      </p>
+      <a href="#what" class="btn">Read More</a>
+    </div>
+  </header>
+
+  <section id="what" class="bg-light py-1">
+    <div class="container">
+      <h2 class="m-heading text-center">
+        <span class="text-primary">What</span> We Do
+      </h2>
+      <div class="items">
+        <div class="item">
+          <i class="fas fa-suitcase-rolling fa-2x"></i>
+          <div>
+            <h3>Airport Escort</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, tempora.
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <i class="fas fa-concierge-bell fa-2x"></i>
+          <div>
+            <h3>Local Cuisines</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, impedit.</p>
+          </div>
+        </div>
+        <div class="item">
+          <i class="fas fa-hotel fa-2x"></i>
+          <div>
+            <h3>Booking Service</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, optio.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!--   Section: Who we are -->
+  <section id="who">
+    <div class="who-img"></div>
+    <div class="who-text bg-dark p-2">
+      <h2 class="m-heading">
+        <span class="text-primary">Who</span> We Are
+      </h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, sit qui dolore soluta repellendus aliquam quam dolores deserunt eos earum incidunt praesentium aperiam neque. Quasi.</p>
+      <h3>Our Team</h3>
+      <ul class="list">
+        <li>Jin Woo Han: CEO</li>
+        <li>Jin Woo Han: CFO</li>
+        <li>Jin Woo Han: Main Tour Guide</li>
+        <li>Jin Woo Han: Head of Public Relations</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="clients" class="py-1">
+    <div class="icon-container">
+      <h2 class="m-heading text-center">
+        <span class="text-primary">Our</span> Clients
+      </h2>
+      <div class="items py-1">
+        <div id="client">
+          <img src="../img/expedia.png" alt="Expedia">
+        </div>
+        <div id="client">
+          <img src="../img/tripadvisor.png" alt="Tripadvisor">
+        </div>
+        <div id="client">
+          <img id="airbnb" src="../img/airbnb.png" alt="Airbnb">
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!--   Section: Contact -->
+  <section id="contact">
+    <div class="contact-form bg-primary p-2">
+      <h2 class="m-heading">
+        Contact Us
+      </h2>
+      <p>Please use the form below to contact us</p>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Enter Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Enter Email">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+        </div>
+        <input type="submit" value="Send" class = "btn btn-dark">
+      </form>
+    </div>
+    <div class="map">
+    </div>
+  </section>
+
+  <!--     Footer -->
+    <footer id="main-footer" class="bg-dark text-center py-1">
+      <div class="container">
+        <p>Copyright &copy; 2019, Jin Woo Travel, All Rights Reserved</p>
+      </div>
+    </footer>
+
+  
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGadPJ1WBD3l9Rxws7CuBopgDVwce4ljo&callback=initMap"
+    async defer>
+</script>
+</body>
+</html>
