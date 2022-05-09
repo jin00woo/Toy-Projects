@@ -1,2 +1,2 @@
-language = "python"
-run = "python Python/Pong/pong.py"
+language = "html"
+run = "HTML-CSS-JS/html-css-with-some-vanillajs/timeline/index.html"
