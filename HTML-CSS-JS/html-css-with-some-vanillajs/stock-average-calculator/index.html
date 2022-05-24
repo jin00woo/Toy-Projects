@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Stock Average Calculator</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper blue">
+      <div class="container">
+        <a href="#" class="brand-logo center">Stock Average Calculator</a>
+        <ul class="right">
+          <li><a href="#" class="clear-btn btn blue lighten-3">Clear All</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <br>
+
+  <div class="container">
+<!--     form card -->
+    <div class="card">
+      <div class="card-content">
+        <span class="card-title">
+          Number of stocks bought 
+        </span>
+        <form class="col">
+          <div class="row">
+            <div class="input-field col s6">
+              <input type="text" placeholder="Add Quantity" id="item-number">
+              <label for="item-number">Number of stocks</label>
+            </div>
+            <div class="input-field col s6">
+              <input type="text" placeholder="Add Price" id="item-price">
+              <label for="item-price">Price</label>
+            </div>
+            <button class="add-btn btn blue darken-3"> <i class="fa fa-plus"></i> Add Stock</button>
+            <button class="update-btn btn orange"> <i class="fa fa-pencil-square-o"></i> Update Stock</button>
+            <button class="delete-btn btn red"> <i class="fa fa-remove"></i> Delete Stock</button>
+            <button class="back-btn btn green pull-right"> <i class="fa fa-chevron-circle-left"></i> Back</button>
+          </div>
+        </form>
+      </div>
+    </div>
+<!--     average stock price -->
+    <h3 class="center-align">Average stock price: $<span class="average-price">0</span></h3>
+
+<!--     item list -->
+    <ul id="item-list" class="collection">
+<!--       <li class="collection-item" id="item-0">
+        <strong>5</strong> <em>150</em>
+        <a href="#" class="secondary-content">
+          <i class="edit-item fa fa-pencil"></i>
+        </a>
+      </li>
+      <li class="collection-item" id="item-0">
+        <strong>3</strong> <em>170</em>
+        <a href="#" class="secondary-content">
+          <i class="edit-item fa fa-pencil"></i>
+        </a>
+      </li>
+      <li class="collection-item" id="item-0">
+        <strong>3</strong> <em>120</em>
+        <a href="#" class="secondary-content">
+          <i class="edit-item fa fa-pencil"></i>
+        </a>
+      </li> -->
+    </ul>
+
+    
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a4bbf46702.js" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
